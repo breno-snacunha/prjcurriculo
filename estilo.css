@@ -1,0 +1,53 @@
+body{
+    font-family: arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background-color: #fcfbfb;
+    color:#060116;
+    font-size: 15px;
+    line-height: 1.5em;
+
+}
+header{
+    background-color: #0056b3;
+    color: #ffffff; 
+    padding: 2px;
+    text-align:center;
+    margin-bottom:3px;
+   }
+
+header h1{
+    font-size:1.6; /* Define o tamanho do título como 2.5 vezes o tamanho */
+    margin-bottom: 0.2 em; /* Adiciona um pequeno espaço abaixo do título/*/
+    font-family: "Times New Roman"; "serif"; "roboto condensed" /* Define a fonte do título como times new roman*/
+ }
+
+section{
+    background-color:#ffffff;
+    padding:1em;
+    margin-bottom:1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(73, 49, 49, 0.1);
+}
+section h2{
+    color:#ffffff;
+    border-bottom:2px solid #0056b3;
+    padding-bottom: 0.5em;
+    margin-top: 0; 
+}
+
+ul li{
+    margin-bottom: 0.5em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+}
+    
+
+footer{
+    
+    background-color: bisque;
+    color:#3e5a5f
+
+}
