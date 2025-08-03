@@ -21,7 +21,16 @@ header h1{
     margin-bottom: 0.2 em; /* Adiciona um pequeno espaço abaixo do título/*/
     font-family: "Times New Roman"; "serif"; "roboto condensed" /* Define a fonte do título como times new roman*/
  }
-
+.menu-lateral{
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(73, 49, 49, 0.1);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
 section{
     background-color:#ffffff;
     padding:1em;
