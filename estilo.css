@@ -1,35 +1,42 @@
-body{
+/* body {
     font-family: arial, sans-serif;
     margin:0;
     padding:20px;
     background-color: #fcfbfb;
     color:#060116;
     font-size: 15px;
-    line-height: 1.5em;
+    line-height: 1.5em;} */
 
-}
-header{
+header {
+    height:200px;
     background-color: #0056b3;
     color: #ffffff; 
     padding: 2px;
     text-align:center;
     margin-bottom:3px;
-   }
+}
 
-header h1{
-    font-size:1.6; /* Define o tamanho do título como 2.5 vezes o tamanho */
-    margin-bottom: 0.2 em; /* Adiciona um pequeno espaço abaixo do título/*/
-    font-family: "Times New Roman"; "serif"; "roboto condensed"; /* Define a fonte do título como times new roman*/
+header h1
+{
+    font-size:1.6em; /* Define o tamanho do título como 2.5 vezes o tamanho */
+    margin-bottom: 0.2em; /* Adiciona um pequeno espaço abaixo do título/*/
+    font-family: "Times New Roman", "serif", "roboto condensed"; /* Define a fonte do título como times new roman*/
  }
-.menu-lateral{
-    width: 250px;
+
+ .menu-lateral {
+    width: 450px;
+    
     background-color: #715fdb;
     padding: 20px;
-    border-radius: 8px; // Define o raio da borda como 8 pixels
+    border-radius: 8px; 
     box-shadow: 0 2px 4px rgba(73, 49, 49, 0.1);
-    //position: fixed; // Define a posição como fixa
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    position:fixed; 
     top: 20px;
-    left: 20px;
+    right: 20px;
+    align-items: right;
 }
 section{
     background-color:#ffffff;
@@ -39,7 +46,7 @@ section{
     box-shadow: 0 2px 4px rgba(73, 49, 49, 0.1);
 }
 section h2{
-    color:#ffffff;
+    color:#302d2d;
     border-bottom:2px solid #0056b3;
     padding-bottom: 0.5em;
     margin-top: 0; 
