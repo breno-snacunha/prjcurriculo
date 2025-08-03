@@ -19,15 +19,15 @@ header{
 header h1{
     font-size:1.6; /* Define o tamanho do título como 2.5 vezes o tamanho */
     margin-bottom: 0.2 em; /* Adiciona um pequeno espaço abaixo do título/*/
-    font-family: "Times New Roman"; "serif"; "roboto condensed" /* Define a fonte do título como times new roman*/
+    font-family: "Times New Roman"; "serif"; "roboto condensed"; /* Define a fonte do título como times new roman*/
  }
 .menu-lateral{
     width: 250px;
-    background-color: #f0f0f0;
+    background-color: #715fdb;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 8px; // Define o raio da borda como 8 pixels
     box-shadow: 0 2px 4px rgba(73, 49, 49, 0.1);
-    position: fixed;
+    //position: fixed; // Define a posição como fixa
     top: 20px;
     left: 20px;
 }
@@ -57,6 +57,6 @@ ul li{
 footer{
     
     background-color: bisque;
-    color:#3e5a5f
+    color:#3e5a5f;
 
 }
